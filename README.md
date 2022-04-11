@@ -1,16 +1,35 @@
-# currency_checking_app
+# Currency Checking App
 
-A new Flutter project.
+A simple currency converter app made with Flutter <3.
 
-## Getting Started
+ ![gif](lib\Project_gif.gif)
 
-This project is a starting point for a Flutter application.
+## Table of Contents:
+* [General Info](#general-info)
+* [Technologies Used](#technologies-used)
+* [Supported Platforms](#supported-platforms)
 
-A few resources to get you started if this is your first Flutter project:
+## General info
+This project is just a simple currency converter app made with [Flutter](https://flutter.dev). The purpose of this this project is to try out BLoC (and hydrated BLoC) as a state-managment solution.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Technologies Used
+* [Flutter](https://flutter.dev)
+* [Dart](https://dart.dev)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Packages:
+* [flutter_bloc v8.0.1](https://pub.dev/packages/flutter_bloc)
+* [equatable v2.0.3](https://pub.dev/packages/equatable)
+* [hydrated_bloc v8.1.0](https://pub.dev/packages/hydrated_bloc)
+* [flutter_simple_calculator v2.2.0](https://pub.dev/packages/flutter_simple_calculator)
+* [path_provider v2.0.9](https://pub.dev/packages/path_provider)
+
+## Supported Platforms
+| Platform | Status |
+| ------ | ------ |
+| Web | 👍 |
+| Android | 👍 |
+| iOS | haven't tested, probably works |
+| macOS | haven't tested, probably works |
+| Linux | haven't tested, probably works |
+| Windows | 👍 |
+
