@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../../core/consts/app_text_styles.dart';
 import '../../data/models/currency_model.dart';
@@ -23,17 +24,7 @@ class _CurrencyTileState extends State<CurrencyTile> {
     return ClipRRect(
       borderRadius:
           widget.isHint ? BorderRadius.circular(50) : BorderRadius.circular(10),
-      child: MouseRegion(
-        onExit: (event) {
-          setState(() {
-            isHovering = false;
-          });
-        },
-        onHover: (value) {
-          setState(() {
-            isHovering = true;
-          });
-        },
+      child: _hoveringFunc(
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 300),
           padding: isHovering
@@ -74,6 +65,37 @@ class _CurrencyTileState extends State<CurrencyTile> {
         ),
       ),
     );
+  }
+
+  /// Handles hovering. Returns [MouseRegion] if the platform is web otherwise returns [Listener]
+  Widget _hoveringFunc({required Widget child}) {
+    return kIsWeb
+        ? MouseRegion(
+            child: child,
+            cursor: MouseCursor.defer,
+            onExit: (event) {
+              setState(() {
+                isHovering = false;
+              });
+            },
+            onEnter: (event) {
+              setState(() {
+                isHovering = true;
+              });
+            },
+          )
+        : Listener(
+            child: child,
+            onPointerUp: (event) {
+              setState(() {
+                isHovering = false;
+              });
+            },
+            onPointerDown: (event) {
+              setState(() {
+                isHovering = true;
+              });
+            });
   }
 
   Widget currencyEmojiCircle({

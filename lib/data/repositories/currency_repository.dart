@@ -8,8 +8,7 @@ import 'package:currency_checking_app/data/models/currency_model.dart';
 class CurrencyRepository {
   final _apiKey = ApiKey.getKey();
 
-  /// Fetches data from an API, decodes JSON response body and returns a
-  /// [CurrencyPair]
+  /// Fetches data from an API, decodes JSON response body and returns a [CurrencyPair]
   Future<CurrencyPair> convertCurrencies({
     required Currency baseCurrency,
     required Currency toCurrency,

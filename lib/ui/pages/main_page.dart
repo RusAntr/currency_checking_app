@@ -97,8 +97,7 @@ class _MainPageState extends State<MainPage> {
     return 'Last updated: $yearMonthDay $hoursMinutes';
   }
 
-  /// Sets and formats text property of two [TextEditingController]'s for each
-  /// currency in a pair
+  /// Sets and formats text property of two [TextEditingController]s for each currency in a pair
   void _setTextControllers() {
     final currencyFormat = intl.NumberFormat("#,##0.00", "en_US");
     _baseTextEditingController.text =
@@ -147,8 +146,7 @@ class _MainPageState extends State<MainPage> {
     );
   }
 
-  /// Opens a [BottomSheet] for searching a desirable [Currency] and changing
-  /// the [CurrencyPair]
+  /// Opens a [BottomSheet] for searching a desirable [Currency] and changing the [CurrencyPair]
   void _showModalBottomSheet(bool isBaseCurrency) {
     showModalBottomSheet(
         clipBehavior: Clip.hardEdge,
