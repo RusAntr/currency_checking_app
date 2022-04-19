@@ -1,6 +1,6 @@
 # Currency Checking App
 
-A simple currency converter app made with Flutter <3.
+A simple currency converter app made with Flutter <3. [WEB DEMO](https://rusantr.github.io/currency_checking_app/build/web/#/)
 
  ![gif](https://github.com/RusAntr/currency_checking_app/blob/090d2f03b173435d3bc1ae2d6f91ef8ba4548a7b/lib/Project_gif.gif)
 
