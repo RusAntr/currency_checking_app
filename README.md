@@ -6,11 +6,30 @@ A simple currency converter app made with Flutter <3.
 
 ## Table of Contents:
 * [General Info](#general-info)
+* [How to install](#how-to-install)
 * [Technologies Used](#technologies-used)
 * [Supported Platforms](#supported-platforms)
 
 ## General info
 This project is just a simple currency converter app made with [Flutter](https://flutter.dev). The purpose of this this project is to try out BLoC (and hydrated BLoC) as a state-managment solution.
+
+## How to install
+#### Step 1:
+
+Fork this project to your own warehouse:
+
+```
+'git clone https://github.com/RusAntr/currency_checking_app.git'
+```
+#### Step 2:
+
+Open the project folder with VS Code and execute the following command to install the dependency package:
+```
+flutter pub get
+```
+#### Step 3:
+
+Open the main.dart file in the lib folder, F5 or Ctrl + F5 to run the project.
 
 ## Technologies Used
 * [Flutter](https://flutter.dev)
