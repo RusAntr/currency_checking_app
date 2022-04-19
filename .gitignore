@@ -33,6 +33,16 @@ lib/core/consts/api_key.dart
 .packages
 .pub-cache/
 .pub/
+/build/
+/build/app/
+/build/flutter_assets/
+/build/kotlin/
+/build/path_provider_android/
+/build/windows/
+/build/.last_build_id
+/build/c075001b96339384a97db4862b8ab8db.cache.dill.track.dill
+/build/app/flutter_assets
+/build/b2cb488831453959539abc1215a57066/
 
 # Web related
 lib/generated_plugin_registrant.dart
