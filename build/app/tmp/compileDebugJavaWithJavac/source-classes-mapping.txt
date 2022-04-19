@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/example/currency_checking_app/BuildConfig.java
- com.example.currency_checking_app.BuildConfig
