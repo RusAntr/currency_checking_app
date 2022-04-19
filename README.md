@@ -51,4 +51,3 @@ Open the main.dart file in the lib folder, F5 or Ctrl + F5 to run the project.
 | macOS | haven't tested, probably works |
 | Linux | haven't tested, probably works |
 | Windows | 👍 |
-
