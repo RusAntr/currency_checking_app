@@ -52,3 +52,6 @@ Open the main.dart file in the lib folder, F5 or Ctrl + F5 to run the project.
 | Linux | haven't tested, probably works |
 | Windows | 👍 |
 
+---
+permalink: /index.html
+---
