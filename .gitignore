@@ -33,6 +33,7 @@ lib/core/consts/api_key.dart
 .packages
 .pub-cache/
 .pub/
+/build/
 /build/app/
 /build/kotlin/
 /build/path_provider_android/
