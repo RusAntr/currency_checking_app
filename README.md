@@ -11,7 +11,7 @@ A simple currency converter app made with Flutter <3. [WEB DEMO](https://rusantr
 * [Supported Platforms](#supported-platforms)
 
 ## General info
-This project is just a simple currency converter app made with [Flutter](https://flutter.dev). The purpose of this this project is to try out BLoC (and hydrated BLoC) as a state-managment solution.
+This project is just a simple currency converter app made with [Flutter](https://flutter.dev). The purpose of this this project is to try out BLoC (and hydrated BLoC) as a state-managment solution and also [Abstract API](https://app.abstractapi.com/)
 
 ## How to install
 #### Step 1:
