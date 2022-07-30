@@ -35,7 +35,7 @@ Open the main.dart file in the lib folder, F5 or Ctrl + F5 to run the project.
 * [Flutter](https://flutter.dev)
 * [Dart](https://dart.dev)
 
-#### Packages:
+#### Third-Party Packages:
 * [flutter_bloc v8.0.1](https://pub.dev/packages/flutter_bloc)
 * [equatable v2.0.3](https://pub.dev/packages/equatable)
 * [hydrated_bloc v8.1.0](https://pub.dev/packages/hydrated_bloc)
